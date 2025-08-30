@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import java.util.*;
 
 /**
- * RecoverSecre
+ * RecoverSecret
  * Reads JSON from input.json. Finds secret (f(0)) using Lagrange interpolation on k sized subsets,
  * picks the polynomial that matche the most shares, prints the secret and the wrong share keys.
  *
@@ -204,6 +204,7 @@ public class RecoverSecret {
         }
     }
 }
+
 
 
 
