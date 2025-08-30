@@ -9,7 +9,7 @@ import java.util.*;
  * Reads JSON from input.json. Finds secret (f(0)) using Lagrange interpolation on k sized subsets,
  * picks the polynomial that matche the most shares, prints the secret and the wrong share keys.
  *
- * Output format:
+ * Output format
  * Secret: <decimal-string>
  * Wrong shares: <comma-separated list of keys>   (or "None" if all match)
  */
@@ -204,6 +204,7 @@ public class RecoverSecret {
         }
     }
 }
+
 
 
 
